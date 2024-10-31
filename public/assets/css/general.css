@@ -1,0 +1,147 @@
+/*
+
+Sections:
+
+- Reset
+- General
+- Form
+- Restriction of type "Password"
+- Select 2 Customization
+
+ */
+
+/* Reset ------------------------------------------------------------------------------------------------------------ */
+.daextrebl-restricted-block-container,
+.daextrebl-restricted-block-container * {
+    box-sizing: border-box !important;
+    text-transform: none !important;
+    box-shadow: none !important;
+}
+
+/* General ---------------------------------------------------------------------------------------------------------- */
+.daextrebl-display-none{
+    display: none;
+}
+
+.daextrebl-restricted-block-container input {
+    background: #fff !important;
+}
+
+.daextrebl-restricted-block-container > *:last-child {
+    margin-bottom: 0 !important;
+}
+
+.daextrebl-restricted-block-container {
+    padding: 40px !important;
+    border-radius: 3px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    margin: 20px 0;
+    max-width: 480px !important;
+    background: #fff !important;
+}
+
+.daextrebl-restricted-block-icon {
+    margin: 0 auto 40px !important;
+    display: block !important;
+    width: 100% !important;
+    height: auto !important;
+}
+
+.daextrebl-restricted-block-title {
+    display: block !important;
+    margin: 0 0 14px 0 !important;
+    text-align: left !important;
+    font-size: 22px !important;
+    font-weight: 600 !important;
+}
+
+.daextrebl-restricted-block-description {
+    display: block !important;
+    margin: 0 0 40px !important;
+    text-align: left !important;
+    font-size: 15px !important;
+    line-height: 22px !important;
+    font-weight: 400 !important;
+}
+
+.daextrebl-form-row {
+    display: block !important;
+    width: 100% !important;
+}
+
+/* Form ------------------------------------------------------------------------------------------------------------- */
+.daextprbpl-form-row input {
+    width: 200px !important;
+}
+
+.daextrebl-form-row button {
+    border: none !important;
+    border-radius: 3px !important;
+    height: 68px !important;
+    width: 100% !important;
+    font-size: 19px !important;
+    font-weight: 600 !important;
+    text-align: center !important;
+    line-height: 68px !important;
+    padding: 0 !important;
+    cursor: pointer !important;
+}
+
+.daextrebl-form-row button:focus {
+    outline: none !important;
+}
+
+.daextrebl-form-row-form-submit {
+    margin-bottom: 0 !important;
+}
+
+/* Restriction of type "Password" ------------------------------------------------------------------------------------ */
+.daextrebl-password-label {
+    font-size: 13px !important;
+    line-height: 13px !important;
+    font-weight: 600 !important;
+    margin-bottom: 13px !important;
+    width: 100% !important;
+}
+
+.daextrebl-form-row-password {
+    position: relative !important;
+}
+
+.daextrebl-password {
+    width: 100% !important;
+    height: 48px !important;
+    border-radius: 3px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    margin-bottom: 24px !important;
+    padding: 0 46px 0 15px !important;
+    font-size: 17px !important;
+    line-height: 17px !important;
+    font-weight: 400 !important;
+}
+
+.daextrebl-password:focus {
+    outline: none !important;
+}
+
+.daextrebl-password-toggle {
+    width: 16px !important;
+    height: 16px !important;
+    position: absolute !important;
+    top: 42px !important;
+    right: 16px !important;
+    cursor: pointer !important;
+}
+
+.daextrebl-password-invalid {
+    display: none;
+    border-radius: 3px !important;
+    margin-top: 20px !important;
+    padding: 16px 16px !important;
+    width: 100% !important;
+    font-size: 13px !important;
+    line-height: 20px !important;
+    font-weight: 400 !important;
+}
